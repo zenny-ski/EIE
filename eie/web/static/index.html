@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Email Intelligence Engine</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="logo">EIE</div>
+        <div>
+          <div class="brand-name">Email Intelligence</div>
+          <div class="brand-sub">Engine</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#/dashboard" data-nav="dashboard">Dashboard</a>
+        <a href="#/reviews" data-nav="reviews">Review Queue <span class="nav-badge" id="review-badge" hidden></span></a>
+        <a href="#/emails" data-nav="emails">Emails</a>
+        <a href="#/audit" data-nav="audit">Audit Log</a>
+        <a href="#/settings" data-nav="settings" id="nav-settings" hidden>Settings</a>
+      </nav>
+      <div class="sidebar-foot" id="config-panel"></div>
+    </aside>
+
+    <div class="main">
+      <header class="topbar">
+        <h1 id="page-title">Dashboard</h1>
+        <div class="topbar-actions">
+          <div class="chips" id="mode-chips"></div>
+          <button class="btn" id="btn-auto" title="Automatically fetch new mail in the background">Auto-fetch: …</button>
+          <button class="btn" id="btn-demo" title="Process samples/sample_emails.json">Load demo emails</button>
+          <button class="btn btn-primary" id="btn-run" title="Fetch unread emails from the configured mailbox">Fetch mailbox</button>
+        </div>
+      </header>
+      <main id="view"></main>
+    </div>
+  </div>
+  <div class="toasts" id="toasts"></div>
+  <script src="/static/app.js"></script>
+</body>
+</html>

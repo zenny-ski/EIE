@@ -1,0 +1,37 @@
+[
+  {
+    "message_id": "<sample-001@example.com>",
+    "sender": "Priya Mehta <priya.mehta@acmecorp.com>",
+    "subject": "Thank you for the smooth airport transfer",
+    "received_at": "2026-09-22T08:15:00+05:30",
+    "body": "Hi team,\n\nJust wanted to share some feedback on my airport transfer yesterday (booking BK-482913). The driver, Ramesh, was punctual and very polite, and the car was clean. Great service overall - thank you!\n\nRegards,\nPriya Mehta"
+  },
+  {
+    "message_id": "<sample-002@example.com>",
+    "sender": "Arjun Rao <arjun.rao@globex.in>",
+    "subject": "URGENT: Driver did not turn up - passenger stranded",
+    "received_at": "2026-09-22T06:40:00+05:30",
+    "body": "This is the second time this month. Our CFO was waiting at Terminal 2 for 45 minutes for booking BK-483001 and the driver did not turn up. He missed his meeting. This is unacceptable - please escalate immediately and call me on +91 98200 11223. If this happens again we will terminate the contract.\n\nArjun Rao\nAdmin Manager, Globex India"
+  },
+  {
+    "message_id": "<sample-003@example.com>",
+    "sender": "Neha Kapoor <neha.k@initech.com>",
+    "subject": "Cab booking request - 25 Sept",
+    "received_at": "2026-09-22T10:05:00+05:30",
+    "body": "Hello,\n\nPlease arrange a cab for our guest Mr. David Lee (+91 99300 44556) on 25 September at 7:30 AM.\nPickup: Taj Lands End, Bandra\nDrop: Mumbai International Airport, T2\nVehicle: Sedan\n\nPlease bill to Initech India.\n\nThanks,\nNeha Kapoor"
+  },
+  {
+    "message_id": "<sample-004@example.com>",
+    "sender": "Accounts <billing@vendor-portal.com>",
+    "subject": "Invoice INV-2291 for August",
+    "received_at": "2026-09-22T11:30:00+05:30",
+    "body": "Dear Sir/Madam,\n\nPlease find attached invoice INV-2291 for services rendered in August. Kindly process at the earliest.\n\nAccounts Team"
+  },
+  {
+    "message_id": "<sample-005@example.com>",
+    "sender": "Rohit Sen <rohit.sen@umbrella.co>",
+    "subject": "Yesterday's trip",
+    "received_at": "2026-09-22T12:45:00+05:30",
+    "body": "Hi, the driver was friendly but he took a longer route and I think I was overcharged on booking BK-482777. The ride was otherwise okay. Can someone check?\n\nRohit"
+  }
+]
